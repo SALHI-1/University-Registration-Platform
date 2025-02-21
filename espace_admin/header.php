@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FST Tanger - Header Universitaire</title>
+    <!-- Lien Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .fst-header {
+            background-color: #004080;
+            padding: 10px 20px;
+            color: white;
+        }
+        .fst-header img {
+            height: 60px;
+        }
+        .fst-header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .fst-header p {
+            font-size: 16px;
+            margin: 0;
+        }
+        .fst-header .text-right {
+            text-align: right;
+        }
+        img{
+            border-radius: 20%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Universitaire -->
+    <header class="fst-header d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+            <img src="images_administration/image.png" alt="FST Tanger Logo">
+            <div class="ms-3">
+                <h1>Faculté des Sciences et Techniques</h1>
+                <p>Tanger</p>
+            </div>
+        </div>
+        <div class="text-right">
+            <p>Université Abdelmalek Essaâdi</p>
+        </div>
+    </header>
